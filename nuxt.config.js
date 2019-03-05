@@ -1,5 +1,5 @@
 const pkg = require('./package')
-
+const webpack = require('webpack')
 
 module.exports = {
   mode: 'universal',
@@ -24,35 +24,22 @@ module.exports = {
   */
   loading: { color: '#fff' },
 
-  /*
-  ** Global CSS
-  */
-  css: [
-  ],
-
-  /*
-  ** Plugins to load before mounting the App
-  */
-  plugins: [
-  ],
-
-  /*
-  ** Nuxt.js modules
-  */
   modules: [
     // Doc: https://bootstrap-vue.js.org/docs/
     'bootstrap-vue/nuxt',
   ],
 
-  /*
-  ** Build configuration
-  */
   build: {
-    /*
-    ** You can extend webpack config here
-    */
-    extend(config, ctx) {
-      
-    }
+    vendor: ['jquery', 'bootstrap'],
+    plugins: [
+      // set shortcuts as global for bootstrap
+      new webpack.ProvidePlugin({
+        $: 'jquery',
+        jQuery: 'jquery',
+        'window.jQuery': 'jquery'
+      })
+    ]
+  },
+  css: ['bootstrap/dist/css/bootstrap.css'],
+  plugins: ['~plugins/bootstrap.js']
   }
-}
