@@ -2,12 +2,9 @@
   <section class="container">
 
     <div class="header">
-        <div class="header-title WG">
+        <div class="header-title BG-green-C-white">
           みんなの育毛剤
         </div>
-    </div>
-    <div class="">
-
     </div>
     <div class="container">
       <div class="row">
@@ -16,11 +13,11 @@
             <div class="main-header">
                <img src="top-header.png" class="img-fluid">
             </div>
-            <div class="sarch">
-              <div class="sarch-title WG">
+            <div class="search">
+              <div class="search-title BG-green-C-white">
                 簡単検索でピッタリの育毛剤を探す
               </div>
-              <div class="sarch-content">
+              <div class="search-content">
                 この中に検索ページが入る。
               </div>
               <div class="ranking">
@@ -39,7 +36,7 @@
                               <img src="chapup (1).jpg" class="img-fluid">
                             </div>
                             <div class="col-8">
-                              <div class="ranking-naiyo">
+                              <div class="ranking-rating">
                                 ★★★★★　4.7（口コミ320件）
                                 <br>販売価格：￥7,400
                                 <p class="red">割引率：今だけ32％ OFF</p>
@@ -50,7 +47,7 @@
 
                         </div>
                       </div>
-                          <div class="hyo">
+                          <div class="product-features">
                           <table>
                             <tr>
                               <th>内容量</th><th>成分</th><th>返金補修</th><th>医薬部外品</th>
@@ -84,11 +81,11 @@
                         </div>
                       </div>
 
-                      <div class="mimi">
-                        <div class="mimi-title">
+                      <div class="Scoop-info">
+                        <div class="Scoop-info-title">
                           ✔みん育.comだけの耳寄り情報！
                         </div>
-                        <div class="mimi-content">
+                        <div class="Scoop-info-content">
                           Amazonや楽天だと古いものが出品されているリスクがあるため、
                           買うなら公式ホームページが断然安心！しかも、公式ホームページからだと、全額返金・永久保証付きで購入可能！
                         </div>
@@ -105,7 +102,7 @@
                               <img src="plantel (1).jpg" class="img-fluid">
                             </div>
                             <div class="col-8">
-                              <div class="ranking-naiyo">
+                              <div class="ranking-rating">
                                 ★★★★★　4.5（口コミ320件）
                                 <br>販売価格：￥9,700
                                 <p class="red">割引率：今だけ33％ OFF</p>
@@ -116,7 +113,7 @@
 
                         </div>
                       </div>
-                          <div class="hyo">
+                          <div class="product-features">
                           <table>
                             <tr>
                               <th>内容量</th><th>成分</th><th>返金補修</th><th>医薬部外品</th>
@@ -151,11 +148,11 @@
                         </div>
                       </div>
 
-                      <div class="mimi">
-                        <div class="mimi-title">
+                      <div class="Scoop-info">
+                        <div class="Scoop-info-title">
                           ✔みん育.comだけの耳寄り情報！
                         </div>
-                        <div class="mimi-content">
+                        <div class="Scoop-info-content">
                           安心安全の返金保障付き！送料無料で今だけ30%以上もお得なキャンペーン実施中！
                         </div>
                       </div>
@@ -170,7 +167,7 @@
                               <img src="iqos.png" class="img-fluid">
                             </div>
                             <div class="col-8">
-                              <div class="ranking-naiyo">
+                              <div class="ranking-rating">
                                 ★★★★★　4.3（口コミ200件）
                                 <br>販売価格：￥6,458
                                 <p class="red">割引率：今だけ49％ OFF</p>
@@ -181,7 +178,7 @@
 
                         </div>
                       </div>
-                          <div class="hyo">
+                          <div class="product-features">
                           <table>
                             <tr>
                               <th>内容量</th><th>成分</th><th>返金補修</th><th>医薬部外品</th>
@@ -216,11 +213,11 @@
                         </div>
                       </div>
 
-                      <div class="mimi">
-                        <div class="mimi-title">
+                      <div class="Scoop-info">
+                        <div class="Scoop-info-title">
                           ✔みん育.comだけの耳寄り情報！
                         </div>
-                        <div class="mimi-content">
+                        <div class="Scoop-info-content">
                           安心安全の返金保障付き！送料無料で約50%お得なキャンペーン実施中！
                         </div>
                       </div>
@@ -236,7 +233,7 @@
                               <img src="finjia.jpg" class="img-fluid">
                             </div>
                             <div class="col-8">
-                              <div class="ranking-naiyo">
+                              <div class="ranking-rating">
                                 ★★★★★　4.2（口コミ96件）
                                 <br>販売価格：￥9,980
                                 <p class="red">割引率：今だけ22％ OFF</p>
@@ -247,7 +244,7 @@
 
                         </div>
                       </div>
-                          <div class="hyo">
+                          <div class="product-features">
                           <table>
                             <tr>
                               <th>内容量</th><th>成分</th><th>返金補修</th><th>医薬部外品</th>
@@ -282,11 +279,11 @@
                         </div>
                       </div>
 
-                      <div class="mimi">
-                        <div class="mimi-title">
+                      <div class="Scoop-info">
+                        <div class="Scoop-info-title">
                           ✔みん育.comだけの耳寄り情報！
                         </div>
-                        <div class="mimi-content">
+                        <div class="Scoop-info-content">
                           安心安全の返金保障付き！送料無料で今だけ20%以上もお得なキャンペーン実施中！
                         </div>
                       </div>
@@ -298,8 +295,8 @@
 
                 </div>
               </div>
-              <div class="hikaku">
-                <div class="hikaku-title WG">
+              <div class="compare">
+                <div class="compare-title BG-green-C-white">
                   比較表
                 </div>
 
@@ -321,7 +318,7 @@
              </div>
            </div>
            <div class="sidebar-rank">
-             <div class="sidebar-rank-title WG">
+             <div class="sidebar-rank-title BG-green-C-white">
                商品一覧
              </div>
              <div class="sidebar-rank-contents">
@@ -376,7 +373,7 @@
                  </div>
                </div>
              </div>
-             <div class="sidebar-ichiran-title WG">
+             <div class="sidebar-ichiran-title BG-green-C-white">
               ランキング一覧
              </div>
              <div class="sidebar-ichiran-contents">
@@ -416,7 +413,7 @@
                  <img src="emuji.png">
                  <a href="#">コスパが良いランキング</a>
                </div>
-            <div class="sidebar-koramu-title WG">
+            <div class="sidebar-koramu-title BG-green-C-white">
               コラム一覧
             </div>
             <div class="sidebar-koramu-contents">
@@ -459,7 +456,7 @@ export default {
 
 <style>
 
-.hikaku-title{
+.compare-title{
   margin-top:10px;
   padding-top:4px;
   padding-left:5px;
@@ -471,15 +468,15 @@ export default {
   border: 1px solid lightgray;
 }
 
-.hyo{
+.product-features{
   margin-top:10px;
 }
-.hyo table {
+.product-features table {
   width:100%;
   border-collapse:  collapse;
 }
 
-.hyo th{
+.product-features th{
   padding:13px 10px;
   background-color:lightgray;
   color:dimgray;
@@ -487,7 +484,7 @@ export default {
   border: solid 1px lightgray;
 }
 
- .hyo td{
+ .product-features td{
   padding:10px 10px;
   background-color:white;
   margin:auto;
@@ -501,7 +498,7 @@ export default {
   padding-bottom:15px;
 }
 
-.mimi-title{
+.Scoop-info-title{
   background-color: whitesmoke;
   text-align: center;
   border: 1px solid whitesmoke;
@@ -509,7 +506,7 @@ export default {
   padding-top:4px;
 }
 
-.mimi-content{
+.Scoop-info-content{
  height:60px;
  border: 1px solid whitesmoke;
  padding-top:8px;
@@ -517,7 +514,7 @@ export default {
  padding-right:5px;
 }
 
-.mimi{
+.Scoop-info{
   margin-top:10px;
 }
 
@@ -559,8 +556,8 @@ background-color: #d3381c;
 
 .sidebar-ichiran-title{
   margin-top:5px;
-padding-top:4px;
-padding-left:3px;
+  padding-top:4px;
+  padding-left:3px;
 }
 
 .sidebar-rank-kaisetsu{
@@ -635,12 +632,12 @@ padding-left:3px;
 }
 
 
-.sarch-title{
+.search-title{
   padding-top:5px;
   padding-left:5px;
 }
 
-.sarch-content{
+.search-content{
   width:100%;
   text-align:center;
   height:400px;
@@ -649,7 +646,7 @@ padding-left:3px;
   padding-top:150px;
 }
 
-.WG{
+.BG-green-C-white{
   background-color:#28a745;
   color:white;
   height:40px;
