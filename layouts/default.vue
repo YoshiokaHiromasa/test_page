@@ -5,6 +5,291 @@
 </template>
 
 <style>
+
+.search-btn{
+  font-size:20px;
+  float:center;
+  
+}
+
+.hidden_box {
+    margin: 20px 0;/*前後の余白*/
+    padding: 0;
+    float:center;
+    text-align: center;
+}
+
+.hidden_box label {
+    padding: 15px;
+    font-weight: bold;
+    border: solid 2px black;
+    cursor :pointer;
+    margin-bottom:40px;
+    border:solid 1px gray;
+    border-radius: 5px;
+    color:white;
+    background-color: gray;
+    opacity: 0.7;
+}
+
+.hidden_box label:hover {
+    opacity: 1;
+}
+
+.vanish {
+    display: none;
+}
+
+.hidden_box .hidden_show {
+    height: 0;
+    padding: 0;
+    overflow: hidden;
+    opacity: 0;
+    transition: 0.8s;
+}
+
+.hidden_box input:checked ~ .hidden_show {
+    padding: 10px 0;
+    height: auto;
+    opacity: 1;
+}
+
+
+.search-question{
+  width:60%;
+  margin:0px;
+}
+.search-select select{
+  float:right;
+  border-radius: 5px;
+  height:40px;
+  font-size:16px;
+  padding-left:5px;
+  width:40%;
+}
+
+.footer_list a{
+  text-decoration:none;
+  color:white;
+}
+
+
+.footer_title a{
+  text-decoration:none;
+  color:white;
+}
+
+.footer-list{
+  text-align: center;
+  padding-left:10px;
+}
+
+.Copyright{
+  padding-top:15px;
+  color:white;
+  text-align: center;
+  margin-bottom:15px;
+}
+
+.footer-title{
+  text-align: center;
+  font-size:20px;
+  margin-bottom:5px;
+}
+
+.footer{
+  text-align: center;
+  width:100%;
+  background-color:#28a745;
+  color:white;
+  font-size:17px;
+}
+
+.review-name{
+  font-size:16px;
+  padding:7px 4px;
+}
+
+.review-content{
+  padding:0px 4px;
+  font-size:13px;
+  border-bottom:1.5px solid silver;
+  padding-bottom:10px;
+}
+
+.review-title{
+  background-color: #ffc107;
+  color:white;
+  font-size:20px;
+  padding-top:3px;
+  padding-left:5px;
+  margin-top:5px;
+}
+
+.ranking-title{
+  font-size:30px;
+}
+
+.ranking-top{
+  margin-top:10px;
+  font-size:24px;
+}
+
+.red{
+  color:red;
+}
+
+.setsumei{
+  margin-top:5px;
+  margin-bottom:5px;
+  border: 1px solid lightgray;
+}
+
+.product-features{
+  margin-top:10px;
+}
+.product-features table {
+  width:100%;
+  border-collapse:  collapse;
+}
+
+.product-features th{
+  padding:13px 10px;
+  background-color:lightgray;
+  color:dimgray;
+  text-align: center;
+  border: solid 1px lightgray;
+}
+
+ .product-features td{
+  padding:10px 10px;
+  background-color:white;
+  margin:auto;
+  text-align: center;
+  border: solid 1px lightgray;
+}
+
+
+.ranking-content{
+  border-bottom:dashed 3px gray;
+  padding-bottom:15px;
+}
+
+.Scoop-info-title{
+  background-color: whitesmoke;
+  text-align: center;
+  border: 1px solid whitesmoke;
+  height:35px;
+  padding-top:4px;
+}
+
+.Scoop-info-content{
+ border: 1px solid whitesmoke;
+ padding-top:8px;
+ padding-left:5px;
+ padding-right:5px;
+}
+
+.Scoop-info{
+  margin-top:10px;
+}
+
+.btn1:hover{
+  background-color:#38b48b;
+  color:white
+}
+
+.btn2:hover{
+  background-color:#e9546b;
+  color:white
+}
+
+.btn{
+  border-radius:5px;
+  height:110px;
+  padding-top:14px;
+  color:white;
+  font-size:28px;
+}
+
+.btn1{
+background-color: #00a497;
+}
+
+.btn2{
+background-color: #d3381c;
+}
+
+
+.setsumei{
+  padding:10px 5px;
+}
+
+.sidebar-koramu-content{
+  padding-top:7px;
+}
+
+.sidebar-ichiran-content img{
+  margin-left:1px;
+  height:21px;
+  width:21px;
+}
+
+.sidebar-ichiran-title{
+  margin-top:5px;
+  padding-top:4px;
+  padding-left:3px;
+}
+
+.sidebar-rank-kaisetsu{
+  font-size:15px;
+}
+
+.gold{
+  color:gold;
+}
+
+.sidebar-rank-sestumei{
+  float:right;
+  font-size:20px;
+}
+
+.sidebar-rank-content{
+  padding-top:10px;
+}
+.sidebar-rank-content img{
+  width:65px;
+  height:65px;
+}
+.sidebar-rank-title{
+  margin-top:5px;
+  padding-top:4px;
+  padding-left:3px;
+}
+
+.ads{
+  padding-top:10px;
+}
+
+
+.BG-green-C-white{
+  background-color:#28a745;
+  color:white;
+  height:40px;
+  width:100%;
+  font-size:20px;
+}
+
+.header{
+}
+
+.header-title{
+  width:160px;
+  font-size:20px;
+  padding-top:3px;
+  padding-left:5px;
+}
+
 html {
   font-family: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI',
     Roboto, 'Helvetica Neue', Arial, sans-serif;

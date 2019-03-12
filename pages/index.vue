@@ -1,11 +1,16 @@
 <template>
   <section class="container">
 
-    <div class="header">
-        <div class="header-title BG-green-C-white">
+    <div class="header BG-green-C-white">
+        <div class="header-title">
           みんなの育毛剤
         </div>
+        <div class="header-link">ランキング一覧</div>
+        <div class="header-link">比較表</div>
+        <div class="header-link">コラム一覧</div>
+        <div class="header-link">商品一覧</div>
     </div>
+
     <div class="container">
       <div class="row">
         <div class="col-sm-9">
@@ -299,6 +304,176 @@
                 <div class="compare-title BG-green-C-white">
                   比較表
                 </div>
+                <div class="compare-table">
+                  <table class="table-hover">
+                    <tr>
+                      <th>商品名</th>
+                      <th>口コミ</th>
+                      <th>効果</th>
+                      <th>成分</th>
+                      <th>価格</th>
+                      <th>返金保証</th>
+                      <th>公式</th>
+                    </tr>
+                    <tr>
+                      <td>チャップアップ<br><img src="chapup (1).jpg" class="item-image"></td>
+                      <td>4.7</td>
+
+                      <td><div class="figure"><img src="00.png"></div></td>
+                      <td><div class="figure"><img src="00.png"></div></td>
+                      <td><div class="figure"><img src="00.png"></div></td>
+                      <td><div class="figure"><img src="00.png"></div></td>
+
+                      <td><a href="#">公式サイトへGO</a></td>
+                    </tr>
+                    <tr>
+                      <td>プランテルEX<br><img src="plantel.jpg" class="item-image"></td>
+                      <td>4.5</td>
+                      <td><div class="figure"><img src="00.png"></div></td>
+                      <td><div class="figure"><img src="00.png"></div></td>
+                      <td><div class="figure"><img src="02.png"></div></td>
+                      <td><div class="figure"><img src="01.png"></div></td>
+                      <td><a href="#">公式サイトへGO</a></td>
+                    </tr>
+                    <tr>
+                      <td>イクオス<br><img src="iqos.png" class="item-image"></td>
+                      <td>4.3</td>
+                      <td><div class="figure"><img src="01.png"></div></td>
+                      <td><div class="figure"><img src="02.png"></div></td>
+                      <td><div class="figure"><img src="00.png"></div></td>
+                      <td><div class="figure"><img src="01.png"></div></td>
+                      <td><a href="#">公式サイトへGO</a></td>
+                    </tr>
+                    <tr>
+                      <td>フィンジア<br><img src="finjia.jpg" class="item-image"></td>
+                      <td>4.2</td>
+                      <td><div class="figure"><img src="01.png"></div></td>
+                      <td><div class="figure"><img src="00.png"></div></td>
+                      <td><div class="figure"><img src="02.png"></div></td>
+                      <td><div class="figure"><img src="01.png"></div></td>
+                      <td><a href="#">公式サイトへGO</a></td>
+                    </tr>
+                    <tr>
+                      <td>ポリピュア<br><img src="polypure.jpg" class="item-image"></td>
+                      <td>4.0</td>
+                      <td><div class="figure"><img src="02.png"></div></td>
+                      <td><div class="figure"><img src="02.png"></div></td>
+                      <td><div class="figure"><img src="02.png"></div></td>
+                      <td><div class="figure"><img src="02.png"></div></td>
+                      <td><a href="#">公式サイトへGO</a></td>
+                    </tr>
+                    <tr>
+                      <td>ベルタ育毛剤<br><img src="belta.jpg" class="item-image"></td>
+                      <td>4.0</td>
+                      <td><div class="figure"><img src="02.png"></div></td>
+                      <td><div class="figure"><img src="02.png"></div></td>
+                      <td><div class="figure"><img src="00.png"></div></td>
+                      <td><div class="figure"><img src="01.png"></div></td>
+                      <td><a href="#">公式サイトへGO</a></td>
+                    </tr>
+                    <tr>
+                      <td>マイナチュレ<br><img src="mynatyure (1).jpg" class="item-image"></td>
+                      <td>4.0</td>
+                      <td><div class="figure"><img src="01.png"></div></td>
+                      <td><div class="figure"><img src="01.png"></div></td>
+                      <td><div class="figure"><img src="02.png"></div></td>
+                      <td><div class="figure"><img src="01.png"></div></td>
+                      <td><a href="#">公式サイトへGO</a></td>
+                    </tr>
+                    <tr>
+                      <td>デルメッドヘアエッセンス<br><img src="dermed.jpg" class="item-image"></td>
+                      <td>3.5</td>
+                      <td><div class="figure"><img src="02.png"></div></td>
+                      <td><div class="figure"><img src="02.png"></div></td>
+                      <td><div class="figure"><img src="00.png"></div></td>
+                      <td><div class="figure"><img src="03.png"></div></td>
+                      <td><a href="#">公式サイトへGO</a></td>
+                    </tr>
+                    <tr>
+                      <td>リデン<br><img src="reden.png" class="item-image"></td>
+                      <td>3.5</td>
+                      <td><div class="figure"><img src="02.png"></div></td>
+                      <td><div class="figure"><img src="01.png"></div></td>
+                      <td><div class="figure"><img src="02.png"></div></td>
+                      <td><div class="figure"><img src="01.png"></div></td>
+                      <td><a href="#">公式サイトへGO</a></td>
+                    </tr>
+                    <tr>
+                      <td>M-1育毛ミスト<br><img src="m-one.jpg" class="item-image"></td>
+                      <td>3.5</td>
+                      <td><div class="figure"><img src="01.png"></div></td>
+                      <td><div class="figure"><img src="03.png"></div></td>
+                      <td><div class="figure"><img src="02.png"></div></td>
+                      <td><div class="figure"><img src="01.png"></div></td>
+                      <td><a href="#">公式サイトへGO</a></td>
+                    </tr>
+                    <tr>
+                      <td>長春毛精<br><img src="choshun.png" class="item-image"></td>
+                      <td>3.0</td>
+                      <td><div class="figure"><img src="03.png"></div></td>
+                      <td><div class="figure"><img src="02.png"></div></td>
+                      <td><div class="figure"><img src="01.png"></div></td>
+                      <td><div class="figure"><img src="03.png"></div></td>
+                      <td><a href="#">公式サイトへGO</a></td>
+                    </tr>
+                    <tr>
+                      <td>チャップアップシャンプー<br><img src="chapup-shampoo.jpg" class="item-image"></td>
+                      <td>3.0</td>
+                      <td><div class="figure"><img src="01.png"></div></td>
+                      <td><div class="figure"><img src="01.png"></div></td>
+                      <td><div class="figure"><img src="00.png"></div></td>
+                      <td><div class="figure"><img src="01.png"></div></td>
+                      <td><a href="#">公式サイトへGO</a></td>
+                    </tr>
+                    <tr>
+                      <td>チャップアップサプリメント<br><img src="chapup-supplement.jpg" class="item-image"></td>
+                      <td>3.0</td>
+                      <td><div class="figure"><img src="01.png"></div></td>
+                      <td><div class="figure"><img src="01.png"></div></td>
+                      <td><div class="figure"><img src="01.png"></div></td>
+                      <td><div class="figure"><img src="01.png"></div></td>
+                      <td><a href="#">公式サイトへGO</a></td>
+                    </tr>
+                    <tr>
+                      <td>Deeper3D<br><img src="deeper3d.jpg" class="item-image"></td>
+                      <td>3.0</td>
+                      <td><div class="figure"><img src="03.png"></div></td>
+                      <td><div class="figure"><img src="01.png"></div></td>
+                      <td><div class="figure"><img src="03.png"></div></td>
+                      <td><div class="figure"><img src="01.png"></div></td>
+                      <td><a href="#">公式サイトへGO</a></td>
+                    </tr>
+                    <tr>
+                      <td>ブブカ<br><img src="bubka.jpg" class="item-image"></td>
+                      <td>3.0</td>
+                      <td><div class="figure"><img src="03.png"></div></td>
+                      <td><div class="figure"><img src="01.png"></div></td>
+                      <td><div class="figure"><img src="03.png"></div></td>
+                      <td><div class="figure"><img src="01.png"></div></td>
+                      <td><a href="#">公式サイトへGO</a></td>
+                    </tr>
+                    <tr>
+                      <td>花蘭咲<br><img src="mycare.jpg" class="item-image"></td>
+                      <td>2.5</td>
+                      <td><div class="figure"><img src="02.png"></div></td>
+                      <td><div class="figure"><img src="02.png"></div></td>
+                      <td><div class="figure"><img src="01.png"></div></td>
+                      <td><div class="figure"><img src="03.png"></div></td>
+                      <td><a href="#">公式サイトへGO</a></td>
+                    </tr>
+                    <tr>
+                      <td>夢美髪<br><img src="yumemihatu.jpg" class="item-image"></td>
+                      <td>2.0</td>
+                      <td><div class="figure"><img src="03.png"></div></td>
+                      <td><div class="figure"><img src="02.png"></div></td>
+                      <td><div class="figure"><img src="00.png"></div></td>
+                      <td><div class="figure"><img src="03.png"></div></td>
+                      <td><a href="#">公式サイトへGO</a></td>
+                    </tr>
+                  </table>
+
+                </div>
+
 
               </div>
 
@@ -309,7 +484,7 @@
         </div>
         <div class="col-sm-3">
           <div class="side-bar">
-           <div class="ads">
+           <div class="ads d-none d-sm-block">
              <div class="ad1">
                <img src="chapup.jpg" class="img-fluid">
              </div>
@@ -438,6 +613,59 @@
     </div>
 
     <div class="footer">
+      <div class="footer-content">
+        <div class="row">
+          <div class="col-3 d-none d-sm-block">
+            <div class="footer-items">
+              <div　class="footer-title"><a href="#">人気の育毛剤</a></div>
+              <div class="footer-list">
+                <a href="#">チャップアップ</a><br>
+                <a href="#">プランテルEX</a><br>
+                <a href="#">イクオス</a><br>
+                <a href="#">フィンジア</a><br>
+                <a href="#">ポリピュア</a><br>
+              </div>
+            </div>
+          </div>
+          <div class="col-3 d-none d-sm-block">
+            <div class="footer-ranking">
+              <div　class="footer-title"><a href="#">人気のランキング</a></div>
+              <div class="footer-list">
+                <a href="#">M字型薄毛に効くランキング</a><br>
+                <a href="#">O字型薄毛に効くランキング</a><br>
+                <a href="#">U字型薄毛に効くランキング</a><br>
+                <a href="#">混合型薄毛に効くランキング</a><br>
+                <a href="#">細毛・軟毛に効くランキング</a><br>
+              </div>
+            </div>
+          </div>          
+          <div class="col-3 d-none d-sm-block">
+            <div class="footer-column">
+              <div　class="footer-title"><a href="#">コラム一覧</a></div>
+              <div class="footer-list">
+                <a href="#">なぜハゲるの？</a><br>
+                <a href="#">育毛剤に頼りたくない？そんな人へ</a><br>
+                <a href="#">育毛に効く食べ物10選</a><br>
+              </div>
+            </div>
+
+          </div>
+           <div class="col-3">
+             <div class="footer-about">
+               <div　class="footer-title"><a href="#">サイトに関して</a></div>
+              <div class="footer-list">
+                <a href="#">運営者情報</a><br>
+                <a href="#">調査概要</a><br>
+                <a href="#">プライバシーポリシー</a><br>
+              </div>
+             </div>
+          </div>
+        </div>
+      </div>
+      <div class="Copyright">
+        All rights reserved @ SunL
+      </div>
+
     </div>
 
   </section>
@@ -455,6 +683,38 @@ export default {
 </script>
 
 <style>
+.item-image {
+  width:100px;
+  height:100px;
+}
+
+.compare-table{
+  width:100%;
+  border-collapse:  collapse;
+  table-layout: auto;
+}
+
+.figure img{
+  width:50%;
+  height:50%;
+}
+
+.compare-table th{
+  padding-left:10px;
+  padding-right:10px;
+  font-size:16px;
+  height:50px;
+  color:#495057;
+  border: solid 1px #dee2e6;
+  background-color:#e9ecef;
+}
+
+.compare-table td{
+  font-size:16px;
+  border: solid 1px lightgray;
+  padding:10px;
+  text-align: center;
+}
 
 .compare-title{
   margin-top:10px;
@@ -462,214 +722,9 @@ export default {
   padding-left:5px;
 }
 
-.setsumei{
-  margin-top:5px;
-  margin-bottom:5px;
-  border: 1px solid lightgray;
-}
-
-.product-features{
-  margin-top:10px;
-}
-.product-features table {
-  width:100%;
-  border-collapse:  collapse;
-}
-
-.product-features th{
-  padding:13px 10px;
-  background-color:lightgray;
-  color:dimgray;
-  text-align: center;
-  border: solid 1px lightgray;
-}
-
- .product-features td{
-  padding:10px 10px;
-  background-color:white;
-  margin:auto;
-  text-align: center;
-  border: solid 1px lightgray;
-}
-
-
-.ranking-content{
-  border-bottom:dashed 3px gray;
-  padding-bottom:15px;
-}
-
-.Scoop-info-title{
-  background-color: whitesmoke;
-  text-align: center;
-  border: 1px solid whitesmoke;
-  height:35px;
-  padding-top:4px;
-}
-
-.Scoop-info-content{
- height:60px;
- border: 1px solid whitesmoke;
- padding-top:8px;
- padding-left:5px;
- padding-right:5px;
-}
-
-.Scoop-info{
-  margin-top:10px;
-}
-
-.btn1:hover{
-  background-color:#38b48b;
-  color:white
-}
-
-.btn2:hover{
-  background-color:#e9546b;
-  color:white
-}
-
-.btn{
-  border-radius:5px;
-  height:110px;
-  padding-top:14px;
-  color:white;
-  font-size:28px;
-}
-
-.btn1{
-background-color: #00a497;
-}
-
-.btn2{
-background-color: #d3381c;
-}
-
-.sidebar-koramu-content{
-  padding-top:7px;
-}
-
-.sidebar-ichiran-content img{
-  margin-left:1px;
-  height:21px;
-  width:21px;
-}
-
-.sidebar-ichiran-title{
-  margin-top:5px;
-  padding-top:4px;
-  padding-left:3px;
-}
-
-.sidebar-rank-kaisetsu{
-  font-size:15px;
-}
-
-.gold{
-  color:gold;
-}
-
-.sidebar-rank-sestumei{
-  float:right;
-  font-size:20px;
-}
-
-.sidebar-rank-content{
-  padding-top:10px;
-}
-.sidebar-rank-content img{
-  width:65px;
-  height:65px;
-}
-.sidebar-rank-title{
-  margin-top:5px;
-  padding-top:4px;
-  padding-left:3px;
-}
-
-.ads{
-  padding-top:10px;
-}
-
-.setsumei{
-  padding:10px 5px;
-}
-
-.table1{
-  width:100%;
-  margin-top:15px;
-  text-align:center;
-  height:125px;
-  background-color:lightsteelblue;
-}
-
-.ranking-top{
-  margin-top:10px;
-  font-size:24px;
-}
-
-.red{
-  color:red;
-}
-
-
-.ranking-title{
-  font-size:30px;
-}
-
-.ranking{
-
-}
-
-.main{
-  height:4000px;
-}
-.side-bar{
-  height:4000px;
-}
 
 .main-header{
   padding-top:8px;
-}
-
-
-.search-title{
-  padding-top:5px;
-  padding-left:5px;
-}
-
-.search-content{
-  width:100%;
-  text-align:center;
-  height:400px;
-  background-color:snow;
-  font-size: 30px;
-  padding-top:150px;
-}
-
-.BG-green-C-white{
-  background-color:#28a745;
-  color:white;
-  height:40px;
-  width:100%;
-  font-size:20px;
-}
-
-.header{
-
-}
-
-.header-title{
-  font-size:20px;
-  padding-top:3px;
-  padding-left:5px;
-}
-
-.col-9{
-  
-}
-
-.col-3{
-
 }
 
 </style>
