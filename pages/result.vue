@@ -404,7 +404,7 @@ export default {
 </script>
 
 <style>
-.search-select-title{
+.search-select-title {
   background-color:#28a745;
   color:white;
   height:35px;
@@ -414,13 +414,13 @@ export default {
   padding-top:2px;
 }
 
-.search-select{
+.search-select {
   padding:20px 10px;
   font-size:20px;
   width:100%;
 }
 
-.search-select-question{
+.search-select-question {
   width:50%;
   float:left;
   
@@ -428,14 +428,14 @@ export default {
   padding-left:20px;
 }
 
-.search-select-ans{
+.search-select-ans {
   width:50%;
   float:left;
   text-align:center;
 
   padding:10px 0px;
 }
-.seaech-add-checkbox{
+.seaech-add-checkbox {
   width:22%;
   float:left;
   text-align:center;
@@ -445,16 +445,16 @@ export default {
   margin:10px;
 }
 
-.search-checkbox-script{
+.search-checkbox-script {
   font-size:20px;
   padding-left:30px;
 }
 
-.search-checkbox{
-  
+.search-checkbox {
+
 }
 
-.search-result{
+.search-result {
   
 }
 

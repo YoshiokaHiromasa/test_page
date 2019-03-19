@@ -7,7 +7,7 @@
 <style>
 
 
-.search-btn{
+.search-btn {
   font-size:20px;
   float:center;
 }
@@ -55,11 +55,11 @@
 }
 
 
-.search-question{
+.search-question {
   width:60%;
   margin:0px;
 }
-.search-select select{
+.search-select select {
   float:right;
   border-radius: 5px;
   height:40px;
@@ -68,36 +68,36 @@
   width:40%;
 }
 
-.footer_list a{
+.footer_list a {
   text-decoration:none;
   color:white;
 }
 
 
-.footer_title a{
+.footer_title a {
   text-decoration:none;
   color:white;
 }
 
-.footer-list{
+.footer-list {
   text-align: center;
   padding-left:10px;
 }
 
-.Copyright{
+.Copyright {
   padding-top:15px;
   color:white;
   text-align: center;
   margin-bottom:15px;
 }
 
-.footer-title{
+.footer-title {
   text-align: center;
   font-size:20px;
   margin-bottom:5px;
 }
 
-.footer{
+.footer {
   text-align: center;
   width:100%;
   background-color:#28a745;
@@ -105,19 +105,19 @@
   font-size:17px;
 }
 
-.review-name{
+.review-name {
   font-size:16px;
   padding:7px 4px;
 }
 
-.review-content{
+.review-content {
   padding:0px 4px;
   font-size:13px;
   border-bottom:1.5px solid silver;
   padding-bottom:10px;
 }
 
-.review-title{
+.review-title {
   background-color: #ffc107;
   color:white;
   font-size:20px;
@@ -126,34 +126,34 @@
   margin-top:5px;
 }
 
-.ranking-title{
+.ranking-title {
   font-size:30px;
 }
 
-.ranking-top{
+.ranking-top {
   margin-top:10px;
   font-size:24px;
 }
 
-.red{
+.red {
   color:red;
 }
 
-.setsumei{
+.setsumei {
   margin-top:5px;
   margin-bottom:5px;
   border: 1px solid lightgray;
 }
 
-.product-features{
+.product-features {
   margin-top:10px;
 }
-.product-features table {
+.product-features table  {
   width:100%;
   border-collapse:  collapse;
 }
 
-.product-features th{
+.product-features th {
   padding:13px 10px;
   background-color:lightgray;
   color:dimgray;
@@ -161,7 +161,7 @@
   border: solid 1px lightgray;
 }
 
- .product-features td{
+ .product-features td {
   padding:10px 10px;
   background-color:white;
   margin:auto;
@@ -170,12 +170,12 @@
 }
 
 
-.ranking-content{
+.ranking-content {
   border-bottom:dashed 3px gray;
   padding-bottom:15px;
 }
 
-.Scoop-info-title{
+.Scoop-info-title {
   background-color: whitesmoke;
   text-align: center;
   border: 1px solid whitesmoke;
@@ -183,28 +183,28 @@
   padding-top:4px;
 }
 
-.Scoop-info-content{
+.Scoop-info-content {
  border: 1px solid whitesmoke;
  padding-top:8px;
  padding-left:5px;
  padding-right:5px;
 }
 
-.Scoop-info{
+.Scoop-info {
   margin-top:10px;
 }
 
-.btn1:hover{
+.btn1:hover {
   background-color:#38b48b;
   color:white
 }
 
-.btn2:hover{
+.btn2:hover {
   background-color:#e9546b;
   color:white
 }
 
-.btn{
+.btn {
   border-radius:5px;
   height:110px;
   padding-top:14px;
@@ -212,75 +212,75 @@
   font-size:28px;
 }
 
-.btn1{
+.btn1 {
 background-color: #00a497;
 }
 
-.btn2{
+.btn2 {
 background-color: #d3381c;
 }
 
 
-.setsumei{
+.setsumei {
   padding:10px 5px;
 }
 
-.sidebar-koramu-content{
+.sidebar-koramu-content {
   padding-top:7px;
 }
 
-.sidebar-ichiran-content img{
+.sidebar-ichiran-content img {
   margin-left:1px;
   height:21px;
   width:21px;
 }
 
-.sidebar-ichiran-title{
+.sidebar-ichiran-title {
   margin-top:5px;
   padding-top:4px;
   padding-left:3px;
 }
 
-.sidebar-rank-kaisetsu{
+.sidebar-rank-kaisetsu {
   font-size:15px;
 }
 
-.gold{
+.gold {
   color:gold;
 }
 
-.sidebar-rank-sestumei{
+.sidebar-rank-sestumei {
   float:right;
   font-size:20px;
 }
 
-.sidebar-rank-content{
+.sidebar-rank-content {
   padding-top:10px;
 }
-.sidebar-rank-content img{
+.sidebar-rank-content img {
   width:65px;
   height:65px;
 }
-.sidebar-rank-title{
+.sidebar-rank-title {
   margin-top:5px;
   padding-top:4px;
   padding-left:3px;
 }
 
-.ads{
+.ads {
   padding-top:10px;
 }
 
 
-.footer a{
+.footer a {
   color:white;
 }
 
 
-.header{
+.header {
 }
 
-.header-title{
+.header-title {
   width:160px;
   font-size:20px;
   padding-top:3px;

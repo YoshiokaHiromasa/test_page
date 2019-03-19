@@ -683,7 +683,7 @@ export default {
 
 <style>
 
-.sidebar-koramu-title{
+.sidebar-koramu-title {
   background-color:#28a745;
   color:white;
   height:40px;
@@ -691,7 +691,7 @@ export default {
   font-size:20px; 
 }
 
-.sidebar-ichiran-title{
+.sidebar-ichiran-title {
   background-color:#28a745;
   color:white;
   height:40px;
@@ -699,7 +699,7 @@ export default {
   font-size:20px;
 }
 
-.sidebar-rank-title{
+.sidebar-rank-title {
   background-color:#28a745;
   color:white;
   height:40px;
@@ -707,7 +707,7 @@ export default {
   font-size:20px;
 }
 
-.search-title{
+.search-title {
   background-color:#28a745;
   color:white;
   height:40px;
@@ -715,30 +715,30 @@ export default {
   font-size:20px;
 }
 
-.header{
+.header {
   background-color:#28a745;
   color:white;
   height:40px;
   width:100%;
   font-size:20px;
 }
-.item-image {
+.item-image  {
   width:100px;
   height:100px;
 }
 
-.compare-table{
+.compare-table {
   width:100%;
   border-collapse:  collapse;
   table-layout: auto;
 }
 
-.figure img{
+.figure img {
   width:50%;
   height:50%;
 }
 
-.compare-table th{
+.compare-table th {
   padding-left:10px;
   padding-right:10px;
   font-size:16px;
@@ -748,14 +748,14 @@ export default {
   background-color:#e9ecef;
 }
 
-.compare-table td{
+.compare-table td {
   font-size:16px;
   border: solid 1px lightgray;
   padding:10px;
   text-align: center;
 }
 
-.compare-title{
+.compare-title {
   margin-top:10px;
   padding-top:4px;
   padding-left:5px;
@@ -767,7 +767,7 @@ export default {
 }
 
 
-.main-header{
+.main-header {
   padding-top:8px;
 }
 
