@@ -1,7 +1,6 @@
 <template>
-  <section class="container">
-
-    <div class="header BG-green-C-white">
+  <section>
+    <div class="header ">
         <div class="header-title">
           みんなの育毛剤
         </div>
@@ -19,7 +18,7 @@
                <img src="top-header.png" class="img-fluid">
             </div>
             <div class="search">
-              <div class="search-title BG-green-C-white">
+              <div class="search-title ">
                 簡単検索でピッタリの育毛剤を探す
               </div>
               <div class="search-content">
@@ -38,7 +37,7 @@
                         <div class="container">
                           <div class="row">
                             <div class="col-4">
-                              <img src="chapup (1).jpg" class="img-fluid">
+                              <img src="chapup_1.jpg" class="img-fluid">
                             </div>
                             <div class="col-8">
                               <div class="ranking-rating">
@@ -104,7 +103,7 @@
                         <div class="container">
                           <div class="row">
                             <div class="col-4">
-                              <img src="plantel (1).jpg" class="img-fluid">
+                              <img src="plantel_1.jpg" class="img-fluid">
                             </div>
                             <div class="col-8">
                               <div class="ranking-rating">
@@ -301,7 +300,7 @@
                 </div>
               </div>
               <div class="compare">
-                <div class="compare-title BG-green-C-white">
+                <div class="compare-title ">
                   比較表
                 </div>
                 <div class="compare-table">
@@ -316,7 +315,7 @@
                       <th>公式</th>
                     </tr>
                     <tr>
-                      <td>チャップアップ<br><img src="chapup (1).jpg" class="item-image"></td>
+                      <td>チャップアップ<br><img src="chapup_1.jpg" class="item-image"></td>
                       <td>4.7</td>
 
                       <td><div class="figure"><img src="00.png"></div></td>
@@ -372,7 +371,7 @@
                       <td><a href="#">公式サイトへGO</a></td>
                     </tr>
                     <tr>
-                      <td>マイナチュレ<br><img src="mynatyure (1).jpg" class="item-image"></td>
+                      <td>マイナチュレ<br><img src="mynatyure_1.jpg" class="item-image"></td>
                       <td>4.0</td>
                       <td><div class="figure"><img src="01.png"></div></td>
                       <td><div class="figure"><img src="01.png"></div></td>
@@ -493,12 +492,12 @@
              </div>
            </div>
            <div class="sidebar-rank">
-             <div class="sidebar-rank-title BG-green-C-white">
+             <div class="sidebar-rank-title ">
                商品一覧
              </div>
              <div class="sidebar-rank-contents">
                <div class="sidebar-rank-content">
-                 <img src="chapup (1).jpg">
+                 <img src="chapup_1.jpg">
                  <div class="sidebar-rank-sestumei">
                    <a href="#" >チャップアップ</a>
                    <br><div class="gold">★★★★★</div>
@@ -508,7 +507,7 @@
                  </div>
                </div>
                <div class="sidebar-rank-content">
-                 <img src="plantel (1).jpg">
+                 <img src="plantel_1.jpg">
                  <div class="sidebar-rank-sestumei">
                    <a href="#" >プランテルEX</a>
                    <br><div class="gold">★★★★★</div>
@@ -548,7 +547,7 @@
                  </div>
                </div>
              </div>
-             <div class="sidebar-ichiran-title BG-green-C-white">
+             <div class="sidebar-ichiran-title ">
               ランキング一覧
              </div>
              <div class="sidebar-ichiran-contents">
@@ -588,7 +587,7 @@
                  <img src="emuji.png">
                  <a href="#">コスパが良いランキング</a>
                </div>
-            <div class="sidebar-koramu-title BG-green-C-white">
+            <div class="sidebar-koramu-title ">
               コラム一覧
             </div>
             <div class="sidebar-koramu-contents">
@@ -683,6 +682,46 @@ export default {
 </script>
 
 <style>
+
+.sidebar-koramu-title{
+  background-color:#28a745;
+  color:white;
+  height:40px;
+  width:100%;
+  font-size:20px; 
+}
+
+.sidebar-ichiran-title{
+  background-color:#28a745;
+  color:white;
+  height:40px;
+  width:100%;
+  font-size:20px;
+}
+
+.sidebar-rank-title{
+  background-color:#28a745;
+  color:white;
+  height:40px;
+  width:100%;
+  font-size:20px;
+}
+
+.search-title{
+  background-color:#28a745;
+  color:white;
+  height:40px;
+  width:100%;
+  font-size:20px;
+}
+
+.header{
+  background-color:#28a745;
+  color:white;
+  height:40px;
+  width:100%;
+  font-size:20px;
+}
 .item-image {
   width:100px;
   height:100px;
@@ -720,6 +759,11 @@ export default {
   margin-top:10px;
   padding-top:4px;
   padding-left:5px;
+  background-color:#28a745;
+  color:white;
+  height:40px;
+  width:100%;
+  font-size:20px;
 }
 
 

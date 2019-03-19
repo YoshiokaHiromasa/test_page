@@ -6,10 +6,10 @@
 
 <style>
 
+
 .search-btn{
   font-size:20px;
   float:center;
-  
 }
 
 .hidden_box {
@@ -272,13 +272,10 @@ background-color: #d3381c;
 }
 
 
-.BG-green-C-white{
-  background-color:#28a745;
+.footer a{
   color:white;
-  height:40px;
-  width:100%;
-  font-size:20px;
 }
+
 
 .header{
 }
