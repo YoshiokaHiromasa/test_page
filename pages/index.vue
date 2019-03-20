@@ -15,6 +15,7 @@
     <plantel/>
     <iqos/>
     <finjia/>
+    <compare/>
   </div>
 
 </section>
@@ -27,6 +28,7 @@ import iqos from '~/components/items/iqos.vue'
 import finjia from '~/components/items/finjia.vue'
 import rankingheader from '~/components/ranking-header.vue'
 import mainheader from '~/components/main-header.vue'
+import compare from '~/components/compare.vue'
 export default {
   components: {
     chapup,
@@ -34,7 +36,8 @@ export default {
     iqos,
     finjia,
     rankingheader,
-    mainheader
+    mainheader,
+    compare
   }
 }
 
