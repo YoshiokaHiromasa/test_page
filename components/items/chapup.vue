@@ -73,5 +73,9 @@ export default {
 </script>
 
 <style>
+
+.ranking-content {
+ margin-top:20px 0px;
+}
     
 </style>
