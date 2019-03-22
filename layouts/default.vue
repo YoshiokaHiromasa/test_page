@@ -265,7 +265,6 @@
   color:white;
 }
 
-
 .footer_title a {
   text-decoration:none;
   color:white;
@@ -360,7 +359,6 @@
   text-align: center;
   border: solid 1px lightgray;
 }
-
 
 .ranking-content {
   border-bottom:dashed 3px gray;
@@ -463,11 +461,9 @@ background-color: #d3381c;
   padding-top:10px;
 }
 
-
 .footer a {
   color:white;
 }
-
 
 .header {
 }
@@ -489,13 +485,6 @@ html {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   box-sizing: border-box;
-}
-
-*,
-*:before,
-*:after {
-  box-sizing: border-box;
-  margin: 0;
 }
 
 .button--green {
@@ -610,7 +599,6 @@ html {
   width:100%;
   font-size:20px;
 }
-
 
 .main-header {
   padding-top:8px;
