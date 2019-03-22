@@ -31,7 +31,7 @@
         </table>
         </div>
     
-    <div class="setsumei">
+    <div class="descripton">
     最新成分のリデンシルや独自成分のペブプロミンαを配合しているので、
     今までの育毛が上手くいかなかった人におすすめ
     </div>

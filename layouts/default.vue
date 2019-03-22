@@ -163,7 +163,7 @@ export default {
   color:red;
 }
 
-.setsumei {
+.descripton {
   margin-top:5px;
   margin-bottom:5px;
   border: 1px solid lightgray;
@@ -244,7 +244,7 @@ background-color: #d3381c;
 }
 
 
-.setsumei {
+.descripton {
   padding:10px 5px;
 }
 
