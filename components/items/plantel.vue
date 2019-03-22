@@ -36,7 +36,7 @@
     今までの育毛が上手くいかなかった人におすすめ
     </div>
 
-    <div class="botans">
+    <div class="button">
     <div class="row">
         <div class="col-6">
             <div class="btn btn1 btn-lg btn-block">
