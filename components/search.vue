@@ -1,11 +1,12 @@
 <template>
-              <div class="search">
+          <div class="search">
             <form method="GET" action="result">
-            <div class="search-title BG-green-C-white">簡単検索でピッタリの育毛剤を探す</div>
+            <div class="search-title ">簡単検索でピッタリの育毛剤を探す</div>
             <div class="search-content">
               <div class="search-top">
+                <div class="container">
                 <div class="row">
-                  <div class="col-6 search-box">
+                  <div class="col-sm-6 search-box">
                     <span class="search-question">１．探しているのは？</span>
                     <div class="search-select">
                       <select name="type">
@@ -15,7 +16,7 @@
                       </select>
                     </div>                   
                   </div>
-                  <div class="col-6 search-box">
+                  <div class="col-sm-6 search-box">
                     ３．性別は？
                     <div class="search-select">
                       <select name="gender">
@@ -26,11 +27,13 @@
                     </div>
                     </div>           
                   </div>
+                  </div>
                 </div>
 
-              <div class="search-bottom"> 
+              <div class="search-bottom">
+                <div class="container"> 
                 <div class="row">
-                  <div class="col-6 search-box">
+                  <div class="col-sm-6 search-box">
                     <div class="search-question">２．口コミは気にする？</div>
                     <div class="search-select">
                       <select name="star">
@@ -42,7 +45,7 @@
                       </div>
                     </div>                               
                 
-                  <div class="col-6 search-box">
+                  <div class="col-sm-6 search-box">
                     <div class="search-question">４．返金保証は？</div>
                     <div class="search-select">
                       <select name="security">
@@ -52,11 +55,12 @@
                      </div> 
                      </div>
                   </div>
+                  </div>
                                                  
                 </div>
               
               
-              </div>
+              
 
 
               <div class="search-checkbox">
@@ -81,6 +85,9 @@
                   </div>
                 </div>
               </div>
+
+              </div>
+
               <div class="search-btn">
                  <input type="submit" value="この条件で探す" >
               </div>
@@ -97,5 +104,106 @@ export default {
 </script>
 
 <style>
-    
+.search{
+  margin-top:10px;
+}
+
+.search-title {
+  background-color:#28a745;
+  color:white;
+  height:40px;
+  width:100%;
+  font-size:20px;
+  padding-left:10px;
+}
+
+.search-box{
+  border:0.5px#dee2e6 solid;
+  padding:10px;
+}
+
+.search-question{
+  float:left;
+  font-size:16px;
+}
+
+.search-select{
+  font-size:16px;
+  float:right;
+  width:40%;
+}
+
+.search-select select{
+  width:100%;
+  border-radius:2px;
+}
+
+.search-question{
+  width:55%;
+}
+.search-top{
+  padding:5px 0px;
+}
+.search-bottom{
+  padding:5px 0px;
+}
+
+.search-content{
+  background-color:#f8f9fa;
+  padding-top:10px;
+}
+.search-btn{
+  text-align:center;
+}
+
+.search-btn input{
+  background-color:#38b48b;
+  width:90%;
+  height:50px;
+  border-radius:5px;
+  color:white;
+  font-size:24px;
+}
+.hidden_box {
+    margin: 10px 0;/*前後の余白*/
+    padding: 0;
+    float:center;
+    text-align: center;
+}
+
+.hidden_box label {
+    padding: 5px;
+    font-weight: bold;
+    border: solid 2px black;
+    cursor :pointer;
+    margin-bottom:5px;
+    border:solid 1px gray;
+    border-radius: 5px;
+    color:white;
+    background-color: gray;
+    opacity: 0.7;
+}
+
+.hidden_box label:hover {
+    opacity: 1;
+}
+
+.vanish {
+    display: none;
+}
+
+.hidden_box .hidden_show {
+    height: 0;
+    padding: 0;
+    overflow: hidden;
+    opacity: 0;
+    transition: 0.8s;
+}
+
+.hidden_box input:checked ~ .hidden_show {
+    padding: 10px 0;
+    height: auto;
+    opacity: 1;
+}
+
 </style>

@@ -32,66 +32,6 @@ export default {
 </script>
 
 <style>
-.search-btn {
-  font-size:20px;
-  float:center;
-}
-
-.hidden_box {
-    margin: 20px 0;/*前後の余白*/
-    padding: 0;
-    float:center;
-    text-align: center;
-}
-
-.hidden_box label {
-    padding: 15px;
-    font-weight: bold;
-    border: solid 2px black;
-    cursor :pointer;
-    margin-bottom:40px;
-    border:solid 1px gray;
-    border-radius: 5px;
-    color:white;
-    background-color: gray;
-    opacity: 0.7;
-}
-
-.hidden_box label:hover {
-    opacity: 1;
-}
-
-.vanish {
-    display: none;
-}
-
-.hidden_box .hidden_show {
-    height: 0;
-    padding: 0;
-    overflow: hidden;
-    opacity: 0;
-    transition: 0.8s;
-}
-
-.hidden_box input:checked ~ .hidden_show {
-    padding: 10px 0;
-    height: auto;
-    opacity: 1;
-}
-
-
-.search-question {
-  width:60%;
-  margin:0px;
-}
-.search-select select {
-  float:right;
-  border-radius: 5px;
-  height:40px;
-  font-size:16px;
-  padding-left:5px;
-  width:40%;
-}
 
 .footer_list a {
   text-decoration:none;
@@ -373,14 +313,7 @@ html {
   font-size:20px;
 }
 
-.search-title {
-  background-color:#28a745;
-  color:white;
-  height:40px;
-  width:100%;
-  font-size:20px;
-  padding-left:10px;
-}
+
 
 .header {
   background-color:#28a745;
