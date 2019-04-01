@@ -1,78 +1,42 @@
 <template>
   <div>
-    <nuxt />
+    <div class="header ">
+      <div class="header-title">
+        みんなの育毛剤
+      </div>
+   </div> 
+   <div class="container">
+   <div class="row">
+     <div class="col-sm-9">
+       <nuxt/>
+     </div>
+     <div class="col-sm-3">
+       <sidebar/>
+     </div>
+    </div>
+   </div>
+   <footer/>
   </div>
 </template>
+<script>
+import sidebar from '~/components/sidebar.vue'
+import footer from '~/components/footer.vue'
+
+export default {
+  components: {
+    sidebar,
+    footer
+  }
+
+}
+</script>
 
 <style>
-
-
-.search-btn {
-  font-size:20px;
-  float:center;
-}
-
-.hidden_box {
-    margin: 20px 0;/*前後の余白*/
-    padding: 0;
-    float:center;
-    text-align: center;
-}
-
-.hidden_box label {
-    padding: 15px;
-    font-weight: bold;
-    border: solid 2px black;
-    cursor :pointer;
-    margin-bottom:40px;
-    border:solid 1px gray;
-    border-radius: 5px;
-    color:white;
-    background-color: gray;
-    opacity: 0.7;
-}
-
-.hidden_box label:hover {
-    opacity: 1;
-}
-
-.vanish {
-    display: none;
-}
-
-.hidden_box .hidden_show {
-    height: 0;
-    padding: 0;
-    overflow: hidden;
-    opacity: 0;
-    transition: 0.8s;
-}
-
-.hidden_box input:checked ~ .hidden_show {
-    padding: 10px 0;
-    height: auto;
-    opacity: 1;
-}
-
-
-.search-question {
-  width:60%;
-  margin:0px;
-}
-.search-select select {
-  float:right;
-  border-radius: 5px;
-  height:40px;
-  font-size:16px;
-  padding-left:5px;
-  width:40%;
-}
 
 .footer_list a {
   text-decoration:none;
   color:white;
 }
-
 
 .footer_title a {
   text-decoration:none;
@@ -139,7 +103,7 @@
   color:red;
 }
 
-.setsumei {
+.descripton {
   margin-top:5px;
   margin-bottom:5px;
   border: 1px solid lightgray;
@@ -168,7 +132,6 @@
   text-align: center;
   border: solid 1px lightgray;
 }
-
 
 .ranking-content {
   border-bottom:dashed 3px gray;
@@ -221,7 +184,7 @@ background-color: #d3381c;
 }
 
 
-.setsumei {
+.descripton {
   padding:10px 5px;
 }
 
@@ -271,11 +234,9 @@ background-color: #d3381c;
   padding-top:10px;
 }
 
-
 .footer a {
   color:white;
 }
-
 
 .header {
 }
@@ -297,13 +258,6 @@ html {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   box-sizing: border-box;
-}
-
-*,
-*:before,
-*:after {
-  box-sizing: border-box;
-  margin: 0;
 }
 
 .button--green {
@@ -334,4 +288,90 @@ html {
   color: #fff;
   background-color: #35495e;
 }
+
+.sidebar-koramu-title {
+  background-color:#28a745;
+  color:white;
+  height:40px;
+  width:100%;
+  font-size:20px; 
+}
+
+.sidebar-ichiran-title {
+  background-color:#28a745;
+  color:white;
+  height:40px;
+  width:100%;
+  font-size:20px;
+}
+
+.sidebar-rank-title {
+  background-color:#28a745;
+  color:white;
+  height:40px;
+  width:100%;
+  font-size:20px;
+}
+
+
+
+.header {
+  background-color:#28a745;
+  color:white;
+  height:40px;
+  width:100%;
+  font-size:20px;
+}
+.item-image  {
+  width:100px;
+  height:100px;
+}
+
+.compare-table {
+  width:100%;
+  border-collapse:  collapse;
+  table-layout: auto;
+}
+
+.figure img {
+  width:50%;
+  height:50%;
+}
+
+.compare-table th {
+  padding-left:10px;
+  padding-right:10px;
+  font-size:16px;
+  height:50px;
+  color:#495057;
+  border: solid 1px #dee2e6;
+  background-color:#e9ecef;
+}
+
+.compare-table td {
+  font-size:16px;
+  border: solid 1px lightgray;
+  padding:10px;
+  text-align: center;
+}
+
+.compare-title {
+  margin-top:10px;
+  padding-top:4px;
+  padding-left:5px;
+  background-color:#28a745;
+  color:white;
+  height:40px;
+  width:100%;
+  font-size:20px;
+}
+
+.main-header {
+  padding-top:8px;
+}
+
+.ranking{
+  padding-bottom:20px;
+}
+
 </style>
